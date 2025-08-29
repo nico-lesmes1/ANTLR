@@ -1,0 +1,12 @@
+icolas1001316089@nicolas-VirtualBox:~/Descargas/Antlr$ java org.antlr.v4.gui.TestRig Hello r -tree
+Error: no se ha encontrado o cargado la clase principal org.antlr.v4.gui.TestRig
+Causado por: java.lang.ClassNotFoundException: org.antlr.v4.gui.TestRig
+nicolas1001316089@nicolas-VirtualBox:~/Descargas/Antlr$ export CLASSPATH=".:/home/nicolas1001316089/Descargas/Antlr/antlr-4.9.3-complete.jar:$CLASSPATH"
+nicolas1001316089@nicolas-VirtualBox:~/Descargas/Antlr$ echo 'export CLASSPATH=".:/home/nicolas1001316089/Descargas/Antler/antlr-4.9.3-complete.jar:$CLASSPATH"' >> ~/.bashrc
+nicolas1001316089@nicolas-VirtualBox:~/Descargas/Antlr$ source ~/.bashrc
+nicolas1001316089@nicolas-VirtualBox:~/Descargas/Antlr$ java -jar /home/usuario/antlr/antlr-4.7-complete.jar Hello.g4
+Error: Unable to access jarfile /home/usuario/antlr/antlr-4.7-complete.jar
+nicolas1001316089@nicolas-VirtualBox:~/Descargas/Antlr$ source ~/.bashrc
+nicolas1001316089@nicolas-VirtualBox:~/Descargas/Antlr$ java -jar /home/nicolas1001316089/Descargas/Antlr/antlr-4.9.3-complete.jar Hello.g4
+nicolas1001316089@nicolas-VirtualBox:~/Descargas/Antlr$ java org.antlr.v4.Tool Hello.g4
+nicolas1001316089@nicolas-VirtualBox:~/Descargas/Antlr$ javac *.java
